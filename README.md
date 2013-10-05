@@ -1,4 +1,4 @@
 storico-edificato-pavese
 ========================
 
-un how-to per la creazione di mappe coroplete con tilemilla
+un how-to per la creazione di mappe coroplete con tilemill

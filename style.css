@@ -1,0 +1,107 @@
+/*
+1 1200     3 A50026
+2 1880     4347 F46D43
+3 1913     350 FEE090
+4 1935     946 FFFFBF
+5 1963     2748 E0F3F8
+6 1975     2784 ABD9E9
+7 1986     581 74ADD1
+8 2007     1  4575B4
+8 2008     3
+8 2009     42
+8 2010     296
+8 2011     2
+9 INDT     129 313695
+9 [VUOTO] 6930
+
+*/
+
+
+Map {
+  background-color: #fff;
+}
+
+#countries {
+  ::outline {
+    line-color: #85c5d3;
+    line-width: 2;
+    line-join: round;
+  }
+  polygon-fill: #000;
+}
+
+#highwayline {
+  line-width:0.5;
+  line-color:#ddd;
+}
+
+#edificatowgs84[ANNO_SOGLI="1200"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#A50026;
+}
+
+#edificatowgs84[ANNO_SOGLI>="1880"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#F46D43;
+}
+
+#edificatowgs84[ANNO_SOGLI>="1913"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#FEE090;
+}
+
+#edificatowgs84[ANNO_SOGLI>="1935"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#FFFFBF;
+}
+
+#edificatowgs84[ANNO_SOGLI>="1963"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#E0F3F8;
+}
+
+#edificatowgs84[ANNO_SOGLI>="1975"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#ABD9E9;
+}
+
+#edificatowgs84[ANNO_SOGLI>="1986"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#74ADD1;
+}
+
+#edificatowgs84[ANNO_SOGLI>"2006"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#4575B4;
+}
+
+#edificatowgs84[ANNO_SOGLI="INDT"] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#313695;
+}
+
+#edificatowgs84[ANNO_SOGLI=""] {
+  line-color:#000;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#313695;
+}
+
